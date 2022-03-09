@@ -1,0 +1,392 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: #ffff !important;
+  font: normal 400 14px/24px 'Roboto', sans-serif;
+}
+
+h1,
+h2 {
+  font: normal 600 32px/38px 'Roboto', sans-serif;
+}
+
+h3,
+h4,
+h5 {
+  font: normal 600 24px/32px 'Roboto', sans-serif;
+}
+
+.bg-1 {
+  background-image: url('../images/bg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 0;
+}
+
+.bg-2 {
+  background-color: #100e17 !important;
+  padding: 80px 0;
+}
+
+.bg-3 {
+  background-color: #000;
+  padding: 80px 0;
+}
+
+.btn-custom {
+  background-color: #0bceaf;
+  border-radius: 50px;
+  padding: 10px 30px;
+  color: white;
+}
+
+.primary-text {
+  color: #0bceaf;
+}
+
+.primary-link,
+.primary-link:hover {
+  color: #0bceaf;
+  text-decoration: none;
+}
+
+/* ====== Navbar ====== */
+.custom-navbar .navbar-brand {
+  color: rgba(255, 255, 255, 0.9);
+  background-color: #0bceaf;
+  padding: 0 5px;
+  border-radius: 5px;
+  font-weight: 700;
+  line-height: 1.2em;
+}
+
+.custom-navbar .navbar-brand:hover {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-color: white;
+}
+
+.navbar-toggler {
+  background-color: white;
+  border: 1px solid white;
+}
+
+.custom-navbar .navbar-nav .nav-link:focus,
+.custom-navbar .navbar-nav .nav-link:hover {
+  color: #0bceaf;
+  border-bottom: 1px solid white;
+}
+
+.custom-navbar .navbar-nav .nav-link {
+  color: rgb(255, 255, 255);
+  padding: 15px;
+}
+
+.custom-navbar .navbar-nav .nav-item {
+  font: normal 700 18px/30px 'Roboto', sans-serif !important;
+}
+
+/* ===== Banner section ====== */
+.hero-section {
+  padding: 100px 0;
+}
+
+.hero-section-text span {
+  background-color: #0bceaf;
+  padding: 10px 30px;
+  border-radius: 20px 50px 50px 0;
+}
+
+.hero-section-text h1 {
+  margin-top: 30px;
+}
+
+.hero-section-text ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 30px;
+}
+
+.hero-section-text li {
+  margin-bottom: 15px;
+}
+
+.hero-section-text a {
+  text-decoration: none;
+  color: white;
+}
+
+.hero-section-text li:hover i {
+  text-decoration: none;
+  color: #0bceaf;
+}
+
+.hero-section-text .social {
+  display: flex;
+}
+
+.hero-section-text .social li {
+  padding: 10px 15px;
+}
+
+.hero-section-text .social li:hover {
+  background-color: #fff;
+  color: #0bceaf;
+}
+
+.hero-section-img img {
+  background-color: rgba(71, 69, 69, 0.589);
+  outline: 20px solid black;
+  border-radius: 50%;
+  outline-offset: 15px;
+  width: 60%;
+}
+
+/* ============== about section ============ */
+.about-text .techs p {
+  display: inline-block;
+  border: 1px solid #0bceaf;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-right: 10px;
+}
+
+/* ============== What I do section ============ */
+
+.specialities {
+  padding: 50px 0 0 0;
+}
+
+.specialities .card {
+  background-color: #202026;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: -1rem 0 3rem #000;
+}
+
+.specialities .card .fa-bullseye {
+  color: #9774fa;
+  font-size: 25px;
+}
+.specialities .card .fa-code {
+  color: #ed7256;
+  font-size: 25px;
+}
+.specialities .card .fa-object-group {
+  color: #2796e2;
+  font-size: 25px;
+}
+
+.specialities .card .card-title {
+  margin: 20px auto;
+}
+
+/* ============== Featured project section ============ */
+
+.features .carousel-caption {
+  position: relative;
+  right: auto;
+  bottom: auto;
+  left: auto;
+  padding-top: 0;
+  padding-bottom: 0;
+  color: #fff;
+  text-align: left;
+}
+
+.features .blockquote {
+  padding: 20px 15px 10px 0;
+  font-size: 15px;
+}
+
+.blockquote-footer {
+  margin-top: -1rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  color: white;
+}
+
+/* ============== Technical section ============ */
+
+.custom-progress-bar .progress {
+  height: 7px;
+  margin-bottom: 15px;
+  background-color: grey;
+}
+
+.custom-progress-bar .progress-bar {
+  justify-content: center;
+  overflow: hidden;
+  color: #fff;
+  background-color: #0bceaf;
+}
+
+/* .skills .professional .prof-skills {
+  border-radius: 50%;
+  background-color: #202026;
+  outline: #4caf50 solid 10px;
+  margin: auto;
+  text-align: center;
+  height: 140px;
+  width: 140px;
+} */
+
+/* ============== career section ============ */
+
+.dark-card {
+  background-color: #202026;
+  padding: 30px;
+  border-radius: 6px;
+  box-shadow: -1rem 0 3rem #000;
+  margin: 30px 0;
+}
+
+.career h1 {
+  margin-bottom: 70px;
+}
+
+/* ============== featured posts section ============ */
+
+.posts {
+  padding: 50px auto;
+}
+
+/* ============== Review section ============ */
+
+.review .item img {
+  outline: #0bceaf solid 5px;
+  outline-offset: -25px;
+  border-radius: 50%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+  background-color: transparent;
+  border: 1px solid #0bceaf;
+  width: 15px;
+  height: 15px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background: #0bceaf;
+}
+
+/* ============== contact Detals section ============ */
+.contact .fa-solid,
+.fas {
+  font-size: 25px;
+  outline: 1px solid #0bceaf;
+  outline-offset: 50px;
+  border-radius: 50%;
+}
+
+/* ============== contact Form section ============ */
+
+.map-img-section {
+  background: url('../images/map-color.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 80px 0 0 0;
+}
+
+.form-control {
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 0.575rem 0.75rem;
+}
+
+.form-control:focus {
+  color: #fff;
+  background-color: transparent;
+  border-color: #0bceaf;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(13, 253, 221, 0.25);
+}
+
+.form-control::placeholder {
+  color: #f1f1f1;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #0bceae86;
+  border-color: #0bceaf;
+  border-radius: 30px;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #0bceaf;
+  border-color: #0bceaf;
+}
+
+.btn-primary:active,
+.btn-primary:focus {
+  color: #fff;
+  background-color: #0bceaf;
+  border-color: #0bceaf;
+  box-shadow: 0 0 0 0.25rem rgba(49, 253, 219, 0.5);
+}
+
+.contact .dark-card {
+  margin: 15px 0;
+}
+
+.contact .dark-card a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.contact .dark-card:first-child {
+  margin: 0 0 15px 0;
+}
+
+footer {
+  padding: 150px 0 0 0;
+}
+footer ul {
+  display: flex;
+}
+
+footer ul li {
+  padding-right: 25px;
+}
+
+@media (max-width: 575.98px) {
+  .hero-section {
+    padding: 100px 20px;
+    text-align: center;
+  }
+
+  .hero-section-img {
+    margin-top: 50px;
+  }
+
+  .about-text {
+    padding: 20px;
+  }
+
+  .specialities .card {
+    margin-bottom: 20px;
+  }
+
+  .carousel-caption {
+    padding: 15px !important;
+  }
+
+  .carousel-control-next,
+  .carousel-control-prev {
+    display: none;
+  }
+
+  .career h1 {
+    text-align: center;
+  }
+}
