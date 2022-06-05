@@ -125,7 +125,7 @@ h5 {
 }
 
 .hero-section-text .social {
-  display: flex;
+  display: inline-flex;
 }
 
 .hero-section-text .social li {

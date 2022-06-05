@@ -22,15 +22,16 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   <!-- Owl Carosel -->
-  <link rel="stylesheet" href="/assets/library/OwlCarousel/assets/owl.carousel.min.css" />
-  <link rel="stylesheet" href="/assets/library/OwlCarousel/assets/owl.theme.default.min.css" />
+  <link rel="stylesheet" href="assets/library/owlcarousel/assets/owl.carousel.min.css" />
+  <!-- <link rel="stylesheet" href="/assets/library/OwlCarousel/assets/owl.carousel.min.css" /> -->
+  <link rel="stylesheet" href="assets/library/OwlCarousel/assets/owl.theme.default.min.css" />
 
   <!-- CUSTOM FILES -->
   <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 
 <body>
-  <div class="bg-1">
+  <div class="bg-1"  id="home">
     <nav class="navbar navbar-expand-lg bg-transparent navbar-light custom-navbar">
       <div class="container">
         <a class="navbar-brand" href="#">Maha</a>
@@ -41,28 +42,28 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Home</a>
+              <a class="nav-link" aria-current="page" href="#home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Skills</a>
+              <a class="nav-link" href="#skills">Skills</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Experiences</a>
+              <a class="nav-link" href="#experiences">Experiences</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Portfolio</a>
+              <a class="nav-link" href="#portfolio">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
+              <a class="nav-link" href="#pricing">Pricing</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Blog</a>
+              <a class="nav-link" href="#review">Reviews</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -117,7 +118,7 @@
         <div class="col-md-6 about-img">
           <img src="./assets/images/logo.png" alt="Logo" class="img-fluid w-100" />
         </div>
-        <div class="col-md-6 about-text">
+        <div class="col-md-6 about-text" id="about">
           <h1>About Me</h1>
           <p class="py-3">
             Hello, I’m a Patrick, web-developer based on Paris. I have rich
@@ -281,7 +282,7 @@
   </div>
 
   <!-- Skills section -->
-  <div class="bg-2">
+  <div class="bg-2" id="skills">
     <div class="container skills">
       <div class="row">
         <div class="col-md-6">
@@ -337,7 +338,7 @@
   </div>
 
   <!-- Career section -->
-  <div class="bg-1">
+  <div class="bg-1" id="experiences">
     <div class="container career">
       <div class="row gx-md-5">
         <!-- Education section -->
@@ -432,7 +433,7 @@
   </div>
 
   <!-- Portfolio section -->
-  <div class="bg-2">
+  <div class="bg-2" id="portfolio">
     <div class="container portfolio">
       <h1 class="text-center">Recent Portfolio</h1>
       <div class="row portfolio-grid"></div>
@@ -455,7 +456,7 @@
   </div>
 
   <!-- Pricing section -->
-  <div class="bg-2 text-center">
+  <div class="bg-2 text-center" id="pricing">
     <div class="container pricing">
       <h1>Pricing Table</h1>
       <div class="row g-4 mt-5">
@@ -578,7 +579,7 @@
   </div>
 
   <!-- Reviews section -->
-  <div class="bg-2 text-center">
+  <div class="bg-2 text-center" id="review">
     <div class="container review">
       <h1 class="mb-5">Client Reviews</h1>
 
@@ -648,7 +649,7 @@
   </div>
 
   <!--  Contact Me section -->
-  <div class="bg-2">
+  <div class="bg-2" id="contact">
     <div class="container-fluid contact">
       <h1 class="text-center">Contact Me</h1>
       <div class="map-img-section">
@@ -726,10 +727,12 @@
           </footer>
         </div>
       </div>
+      <a href="#home"> <img src="assets/images/animation_500_l40tmxox.gif" alt="go up" class="img-fluid  d-block mt-3 mx-auto" width="50px" ></a>
     </div>
   </div>
   </div>
   </div>
+
   </div>
 
 
@@ -737,32 +740,32 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
     integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  
-    <script src="/assets/library/OwlCarousel/owl.carousel.min.js"></script>
 
-    <!-- Owl Carosel -->
-    <script>
-      $('.owl-carousel').owlCarousel({
-        loop: false,
-        margin: 40,
-        dots: true,
-        responsive:{
-        0:{
-            items:1,
-            nav:true
+  <script src="assets/library/OwlCarousel/owl.carousel.min.js"></script>
+
+  <!-- Owl Carosel -->
+  <script>
+    $('.owl-carousel').owlCarousel({
+      loop: false,
+      margin: 40,
+      dots: true,
+      responsive: {
+        0: {
+          items: 1,
+          nav: true
         },
-        600:{
-            items:2,
-            nav:false
+        600: {
+          items: 2,
+          nav: false
         },
-        900:{
-            items:3,
-            nav:true,
-            loop:false
+        900: {
+          items: 3,
+          nav: true,
+          loop: false
         }
       }
-      });
-    </script>
+    });
+  </script>
 
   <!--  Bootstrap Bundle  -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
